@@ -300,7 +300,7 @@ Modify the hosts and save the IP of each container.
 vim /etc/hosts
 ```
 
-![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.1-1.png)
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.2-1.png)
 
 Verify that the h01 can connect to the h02 and h03 well.
 
