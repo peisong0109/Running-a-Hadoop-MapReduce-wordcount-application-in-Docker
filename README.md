@@ -308,6 +308,9 @@ Verify that the h01 can connect to the h02 and h03 well.
 ssh h01
 ssh h02
 ```
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.2-2.png)
+
 ###### Modify the workers:
 
 Delete localhost and input all the three hostname
@@ -316,6 +319,8 @@ Delete localhost and input all the three hostname
 cd $HADOOP_CONF_DIR
 vim workers
 ```
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.2-3.png)
 
 ##### Step 3:
 Start the hadoop cluster
@@ -328,12 +333,24 @@ start-all.sh
 
 ```
 
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.3-1.png)
+
 ##### Step 4:
 Check the state of each node.
 
 ```
 root@h01:~# jps
 ```
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.4-1.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.4-2.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.4-3.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.4-4.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.4-5.png)
 
 ---
 ## Test the hadoop with the WordCount application
@@ -355,6 +372,8 @@ hadoop fs -put file.txt /input
 hadoop fs -ls /input
 
 ```
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step3.2-1.png)
 
 ##### Step 3:
 Run the WordCount application:
