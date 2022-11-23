@@ -276,8 +276,8 @@ Open three terminals and create one container in each terminal:
 ```
 #Start three containers
 docker run -it -h h01 --name h01 -p 9870:9870 -p 8088:8088 -p 9002:9002 ubuntu:hadoop /bin/bash
-docker run -it -h h02 --name h02 hadoop /bin/bash
-docker run -it -h h03 --name h03 hadoop /bin/bash
+docker run -it -h h02 --name h02 ubuntu:hadoop /bin/bash
+docker run -it -h h03 --name h03 ubuntu:hadoop /bin/bash
 # -h：Container's hostname
 
 ```
