@@ -45,6 +45,10 @@ update-alternatives --config java
 #Check the path of the java.
 ```
 
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2-2.png)
+
 ##### Step 3:
 Install the required tools, including vim, config, ssh:
 
@@ -59,6 +63,15 @@ echo "service ssh start" >> ~/.bashrc
 
 ```
 
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step3-1.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step3-2.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step3-3.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step3-4.png)
+
+
 ##### Step 4:
 Download hadoop:
 
@@ -68,6 +81,9 @@ tar -zxvf hadoop-3.2.1.tar.gz -C /usr/local/
 cd /usr/local/
 mv hadoop-3.2.1 hadoop 
 ```
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step4-1.png)
+
 
 ##### Step 5:
 Modify the environment variables:
