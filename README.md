@@ -146,6 +146,9 @@ export YARN_RESOURCEMANAGER_USER=root
 export YARN_NODEMANAGER_USER=root
 ```
 
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step6-1.png)
+
+
 ###### Add the following variables into core-site.xml:
 
 ```
@@ -162,6 +165,8 @@ export YARN_NODEMANAGER_USER=root
 
 #You must make sure that the port 9002 is not occupied.
 ```
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step6-2.png)
 
 ###### Create new folders:
 
@@ -193,6 +198,8 @@ mkdir /data/hadoop/hdfs/data
 
 ```
 
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step6-3.png)
+
 ###### Add the following variables into mapred-site.xml:
 
 ```
@@ -219,6 +226,8 @@ mkdir /data/hadoop/hdfs/data
 
 ```
 
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step6-4.png)
+
 ###### Add the following variables into yarn-site.xml:
 
 ```
@@ -234,6 +243,8 @@ mkdir /data/hadoop/hdfs/data
 </configuration>
 
 ```
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step6-5.png)
 
 ##### Step 7:
 Save the configured container into a docker image:
