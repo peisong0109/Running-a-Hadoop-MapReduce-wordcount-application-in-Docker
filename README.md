@@ -360,7 +360,7 @@ hadoop fs -ls /input
 Run the WordCount application:
 
 ```
-root@h01:~# hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar wordcount /input /output
+root@h01:~# hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.1.jar wordcount /input /output
 ```
 
 ##### Step 4:
