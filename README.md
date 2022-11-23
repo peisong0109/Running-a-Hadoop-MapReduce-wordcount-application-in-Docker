@@ -18,6 +18,7 @@ Pull the ubuntu image from docker:
 ```
 docker pull ubuntu
 ```
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step1.png)
 
 Create the container based on the ubuntu image:
 
