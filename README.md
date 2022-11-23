@@ -282,6 +282,12 @@ docker run -it -h h03 --name h03 ubuntu:hadoop /bin/bash
 
 ```
 
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.1-1.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.1-2.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.1-3.png)
+
 ##### Step 2:
 Check the IP of the current container.
 
@@ -293,6 +299,9 @@ Modify the hosts and save the IP of each container.
 ```
 vim /etc/hosts
 ```
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.1-1.png)
+
 Verify that the h01 can connect to the h02 and h03 well.
 
 ```
