@@ -84,6 +84,10 @@ mv hadoop-3.2.1 hadoop
 
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step4-1.png)
 
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step4-2.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step4-3.png)
+
 
 ##### Step 5:
 Modify the environment variables:
@@ -120,6 +124,8 @@ export HDFS_NAMENODE_USER=root
 export YARN_RESOURCEMANAGER_USER=root
 export YARN_NODEMANAGER_USER=root
 ```
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step5-1.png)
 
 Run:
 
@@ -257,6 +263,8 @@ docker commit -m "install haddop" 8a2a24b54e6e ubuntu:hadoop
 # ubuntu:hadoop：The name of your new-built image.
 
 ```
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step7.png)
 
 
 ---
