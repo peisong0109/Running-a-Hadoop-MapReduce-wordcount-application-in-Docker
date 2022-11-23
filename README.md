@@ -84,6 +84,10 @@ mv hadoop-3.2.1 hadoop
 
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step4-1.png)
 
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step4-2.png)
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step4-3.png)
+
 
 ##### Step 5:
 Modify the environment variables:
@@ -120,6 +124,8 @@ export HDFS_NAMENODE_USER=root
 export YARN_RESOURCEMANAGER_USER=root
 export YARN_NODEMANAGER_USER=root
 ```
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step5-1.png)
 
 Run:
 
@@ -258,6 +264,8 @@ docker commit -m "install haddop" 8a2a24b54e6e ubuntu:hadoop
 
 ```
 
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step7.png)
+
 
 ---
 ## Run hadoop cluster within docker containers
@@ -268,8 +276,8 @@ Open three terminals and create one container in each terminal:
 ```
 #Start three containers
 docker run -it -h h01 --name h01 -p 9870:9870 -p 8088:8088 -p 9002:9002 ubuntu:hadoop /bin/bash
-docker run -it -h h02 --name h02 hadoop /bin/bash
-docker run -it -h h03 --name h03 hadoop /bin/bash
+docker run -it -h h02 --name h02 ubuntu:hadoop /bin/bash
+docker run -it -h h03 --name h03 ubuntu:hadoop /bin/bash
 # -h：Container's hostname
 
 ```
