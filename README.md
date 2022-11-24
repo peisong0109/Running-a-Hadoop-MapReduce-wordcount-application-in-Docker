@@ -139,7 +139,7 @@ export YARN_NODEMANAGER_USER=root
 
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step5-1.png)
 
-Run:
+Run the following command to enable the profile when booting the system:
 
 ```
 echo "source /etc/profile" >> ~/.bashrc
