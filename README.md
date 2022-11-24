@@ -152,7 +152,7 @@ echo "source /etc/profile" >> ~/.bashrc
 Modify the config files of hadoop:
 
 ```
-#Get into the hadoop config file:
+#Get into the hadoop config folder:
 cd $HADOOP_CONF_DIR
 ```
 
