@@ -1,6 +1,9 @@
 # Running-a-Hadoop-MapReduce-wordcount-application-in-Docker
 # Running a MapReduce wordcount application in Docker
 
+
+![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/structure.png)
+
 ### Background
 One simple application is to count the occurrences of certain keywords, such as “green,” “health,” “education,” “equality,” etc. With a traditional approach, which does not involve the concept of distributed processing, the job of word counting might not be easy or quick. In addition, it would be very computationally expensive.
 
