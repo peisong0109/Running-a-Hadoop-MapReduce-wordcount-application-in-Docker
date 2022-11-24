@@ -1,13 +1,13 @@
 # Running-a-Hadoop-MapReduce-wordcount-application-in-Docker
 # Running a MapReduce wordcount application in Docker
 
-#### Background
+### Background
 One simple application is to count the occurrences of certain keywords related to SDGs such as “green,” “health,” “education,” “equality,” etc. With a traditional approach, which does not involve the concept of distributed processing, the job of word counting might not be easy or quick. In addition, it would be very computationally expensive.
 
-#### Intention
+### Intention
 The purpose of this project is to develop a simple word count application that demonstrates the working principle of MapReduce, involving multiple Docker Containers as the clients, to meet the requirements of distributed processing, using Python SDK for Docker.
 
-#### Introduction
+### Introduction
 MapReduce is a programming model designed for processing and generating big data set with a parallel and distributed algorithms across single or multiple clusters. It consists of two main phases, which are Map and Reduce. 
 
 The Map function takes a set of data and breaks them down into key-value pairs. 
