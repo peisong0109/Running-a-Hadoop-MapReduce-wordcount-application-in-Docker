@@ -285,6 +285,7 @@ docker commit -m "install haddop" 8a2a24b54e6e ubuntu:hadoop
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step7.png)
 
 (You can just pull the well-built image from dockerhub.)
+
 '''
 docker pull peisongli/ubuntu
 '''
