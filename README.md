@@ -28,7 +28,7 @@ The Reduce function then takes the outputs from the Map function as the inputs a
 ## Configure and save the hadoop image
 
 ##### Step 1:
-Pull the ubuntu image from docker:
+Pull the ubuntu image from docker as a base image:
 
 ```
 docker pull ubuntu
@@ -380,7 +380,7 @@ http://150.158.94.93:8088/
 ## Test the hadoop with the WordCount application
 
 ##### Step 1:
-We choose the licence.txt as the file used for counting the words.
+We choose the licence.txt as the text file used for counting the words.
 
 ```
 root@h01:~# cat $HADOOP_HOME/LICENSE.txt > file.txt
