@@ -7,6 +7,13 @@ One simple application is to count the occurrences of certain keywords related t
 ##### Intention
 The purpose of this project is to develop a simple word count application that demonstrates the working principle of MapReduce, involving multiple Docker Containers as the clients, to meet the requirements of distributed processing, using Python SDK for Docker.
 
+##### Introduction
+MapReduce is a programming model designed for processing and generating big data set with a parallel and distributed algorithms across single or multiple clusters. It consists of two main phases, which are Map and Reduce. 
+
+The Map function takes a set of data and breaks them down into key-value pairs. 
+
+The Reduce function then takes the outputs from the Map function as the inputs and reduces the key-value pairs into unique keys with values according to the algorithm defined in the Reduce function. In this project, all the key-value pairs will be added up to find the total occurrences for the specific words.
+
 
 ---
 
