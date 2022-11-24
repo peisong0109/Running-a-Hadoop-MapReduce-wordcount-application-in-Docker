@@ -419,3 +419,7 @@ root@h01:~# hadoop fs -cat /output/part-r-00000
 
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step3.4-2.png)
 
+---
+
+### Reference
+[Hadoop - MapReduce](https://www.tutorialspoint.com/hadoop/hadoop_mapreduce.htm)
