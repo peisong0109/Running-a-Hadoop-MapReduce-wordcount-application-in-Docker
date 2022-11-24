@@ -14,6 +14,11 @@ The Map function takes a set of data and breaks them down into key-value pairs.
 
 The Reduce function then takes the outputs from the Map function as the inputs and reduces the key-value pairs into unique keys with values according to the algorithm defined in the Reduce function. In this project, all the key-value pairs will be added up to find the total occurrences for the specific words.
 
+### workflow
+- Create a Hadoop image.
+- Run a hadoop cluster within docker containers.
+- Test the hadoop with the wordcount application.
+
 
 ---
 
@@ -354,6 +359,14 @@ root@h01:~# jps
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.4-2.png)
 
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.4-3.png)
+
+Get the information of the nodes from:
+
+```
+http://150.158.94.93:9870/
+#Use your cloud server ip.
+http://150.158.94.93:8088/
+```
 
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.4-4.png)
 
