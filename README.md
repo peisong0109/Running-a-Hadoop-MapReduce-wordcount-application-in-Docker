@@ -297,6 +297,8 @@ docker run -it -h h03 --name h03 ubuntu:hadoop /bin/bash
 
 ```
 
+Assume that h01 received the file to be processed from the host machine, which distributes the tasks to numerous containers.
+
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.1-1.png)
 
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.1-2.png)
