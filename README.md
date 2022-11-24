@@ -360,6 +360,7 @@ root@h01:~# jps
 
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.4-3.png)
 
+##### Step 5:
 Get the information of the nodes from:
 
 ```
