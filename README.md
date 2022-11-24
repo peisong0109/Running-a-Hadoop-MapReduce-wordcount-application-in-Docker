@@ -286,9 +286,9 @@ docker commit -m "install haddop" 8a2a24b54e6e ubuntu:hadoop
 
 (You can just pull the well-built image from dockerhub.)
 
-'''
+```
 docker pull peisongli/ubuntu
-'''
+```
 
 ---
 ## Run hadoop cluster within docker containers
