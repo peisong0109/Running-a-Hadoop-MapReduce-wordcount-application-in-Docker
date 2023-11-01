@@ -330,8 +330,8 @@ vim /etc/hosts
 Verify that the h01 can connect to the h02 and h03 well.
 
 ```
-ssh h01
 ssh h02
+ssh h03
 ```
 
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.2-2.png)
