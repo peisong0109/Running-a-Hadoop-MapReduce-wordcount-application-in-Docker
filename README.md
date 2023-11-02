@@ -7,7 +7,7 @@
 ### Background
 One simple application is to count the occurrences of certain keywords, such as “green,” “health,” “education,” “equality,” etc. With a traditional approach, which does not involve the concept of distributed processing, the job of word counting might not be easy or quick. In addition, it would be very computationally expensive.
 
-### Intention
+### Motivation
 The purpose of this project is to develop a simple wordCount application that demonstrates the working principle of MapReduce, involving multiple Docker Containers as the workers, to meet the requirements of distributed processing.
 
 ### Introduction
