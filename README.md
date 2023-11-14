@@ -377,9 +377,9 @@ root@h01:~# jps
 View the running status of the cluster:
 
 ```
-http://150.158.94.93:9870/
+http://8.217.194.219:9870/
 #Use your cloud server ip.
-http://150.158.94.93:8088/
+http://8.217.194.219:8088/
 ```
 
 ![image](https://github.com/peisong0109/Running-a-Hadoop-MapReduce-wordcount-application-in-Docker/blob/main/screenshots/step2.4-4.png)
